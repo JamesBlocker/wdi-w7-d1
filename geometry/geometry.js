@@ -3,5 +3,9 @@ function diameter(radius) {
 }
 
 function circumference(radius) {
-    return 2 * radius * Math.PI;
+    return diameter(radius) * Math.PI;
+}
+
+function circleArea(radius) {
+    return Math.PI * (raidus * radius);
 }
