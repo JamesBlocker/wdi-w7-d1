@@ -10,4 +10,8 @@ function circleArea(radius) {
     return Math.PI * (raidus * radius);
 }
 
-module.exports = {};
+module.exports = {
+    diameter: diameter,
+    circumference: circumference,
+    circleArea: circleArea
+};
